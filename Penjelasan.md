@@ -32,7 +32,7 @@ Anda dapat menggunakan sintaks import * as. Berikut contohnya:
 // file2.js
 <img src = "Contoh5.png">
 
-Dalam contoh di atas, kita memiliki tiga fungsi add, subtract, dan multiplydidefinisikan di file1.js. Kami mengimpor ketiga fungsi dalam file2.jsmenggunakan import * assintaks dan menyimpannya di mathobjek. Kami kemudian dapat memanggil fungsi-fungsi ini menggunakan mathobjek sebagai namespace.
+Dalam contoh di atas, kita memiliki tiga fungsi add, subtract, dan multiply didefinisikan di file1.js. Kami mengimpor ketiga fungsi dalam file2.js menggunakan import * as sintaks dan menyimpannya di math objek. Kami kemudian dapat memanggil fungsi-fungsi ini menggunakan math objek sebagai namespace.
 
 ## 4. Perbedaan antara Import All dengan Import alias
 Dalam module JavaScript, terdapat dua cara untuk mengimpor fungsi atau variabel dari modul lain, yaitu dengan menggunakan import * as(import all) atau import { } as(import alias).
@@ -47,7 +47,7 @@ Perbedaan antara keduanya adalah:
 // file2.js
 <img src = "Contoh7.png">
 
-Dalam contoh ini, kami mengimpor adddari file1.jsdan memberikan nama alias sum. Kami kemudian dapat menggunakan nama alias ini untuk memanggil fungsi add. Kami juga mengimpor subtractdan multiplytanpa memberikan alias, jadi kami dapat menggunakan nama fungsi yang sama seperti di file1.js.
+Dalam contoh ini, kami mengimpor adddari file1.jsdan memberikan nama alias sum. Kami kemudian dapat menggunakan nama alias ini untuk memanggil fungsi add. Kami juga mengimpor subtract dan multiplytanpa memberikan alias, jadi kami dapat menggunakan nama fungsi yang sama seperti di file1.js.
 
 ## 5. Kapan kita menggunakan import all dan kapan menggunakan import alias
 Pemilihan antara import all dan import alias tergantung pada kebutuhan dan preferensi Anda.
